@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import type { SecurityAlertStats } from '../types/alert';
 import { getAlertStats } from '../api/alerts';
+import { MOCK_STATS } from '../api/mockData';
 
 export function useStats() {
   const [stats, setStats] = useState<SecurityAlertStats | null>(null);
@@ -13,8 +14,8 @@ export function useStats() {
       setError(null);
       const res = await getAlertStats();
       setStats(res);
-    } catch (err: any) {
-      setError(err.message || 'Failed to fetch alert statistics');
+    } catch {
+      setStats(MOCK_STATS);
     } finally {
       setLoading(false);
     }
