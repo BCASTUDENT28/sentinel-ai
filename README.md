@@ -71,17 +71,17 @@ sentinel-ai/
 
 SentinelAI is built systematically across 11 discrete phases:
 
-- **Phase 0 — Architecture & Repository Foundation** *(Current)*
-- **Phase 1 — Passive Traffic Ingestion & Flow Engine**
-- **Phase 2 — Feature Engineering & Telemetry**
-- **Phase 3 — Hybrid Threat Detection Engine**
-- **Phase 4 — Alert Correlation, Evidence & Risk Scoring**
-- **Phase 5 — FastAPI Backend & Persistence**
-- **Phase 6 — Real-Time Streaming Architecture**
-- **Phase 7 — React SOC Dashboard**
-- **Phase 8 — GenAI Security Analyst**
-- **Phase 9 — DevOps, Security & Cloud Deployment**
-- **Phase 10 — Benchmarking, Hardening & SIH Demo**
+- **Phase 0 — Architecture & Repository Foundation** ✅
+- **Phase 1 — Passive Traffic Ingestion & Flow Engine** ✅
+- **Phase 2 — Feature Engineering & Telemetry** ✅
+- **Phase 3 — Hybrid Threat Detection Engine** ✅
+- **Phase 4 — Alert Correlation, Evidence & Risk Scoring** ✅
+- **Phase 5 — FastAPI Backend & Persistence** ✅
+- **Phase 6 — Real-Time Streaming Architecture** ✅
+- **Phase 7 — React SOC Dashboard** ✅ implemented
+- **Phase 8 — GenAI Security Analyst** ✅ implemented
+- **Phase 9 — DevOps, Security & Cloud Deployment** ✅ implemented (Terraform for AWS: ECS, Kafka, RDS; Vercel demo)
+- **Phase 10 — Benchmarking, Hardening & SIH Demo** *(Current)*
 
 See [ROADMAP.md](docs/development/ROADMAP.md) for full phase specifications, tasks, and acceptance criteria.
 
